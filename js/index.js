@@ -1,25 +1,6 @@
 const searchRoot = document.querySelector('[data-vue-search]');
 const url = 'https://cdn.statcdn.com/static/application/search_results.json';
 
-const arr = [
-  {
-    name: 'John',
-    age: 30,
-  },
-  {
-    name: 'John',
-    age: 30,
-  },
-  {
-    name: 'John',
-    age: 30,
-  },
-  {
-    name: 'John',
-    age: 30,
-  },
-];
-
 /* This is an example Vue app, feel free to use your own code. By default, Vue 2.6 and Axios are available. */
 
 Vue.component('Greeting', {
