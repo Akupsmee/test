@@ -1,7 +1,6 @@
 const searchRoot = document.querySelector('[data-vue-search]');
 const url = 'https://cdn.statcdn.com/static/application/search_results.json';
 
-/* This is an example Vue app, feel free to use your own code. By default, Vue 2.6 and Axios are available. */
 
 Vue.component('Greeting', {
   template: `
